@@ -22,7 +22,13 @@ jobs:
         with:
           version: ${{ matrix.julia-version }}
       - uses: julia-actions/cache@v2
-      - name: Install registry and resolve manifest for this Julia version
-        run: julia --project=. -e "using Pkg; Pkg.Registry.add(); Pkg.resolve()"
+      - name: Prepare manifest
+        shell: bash
+        run: |
+          if [ "${{ matrix.julia-version }}" = "1.10" ]; then
+            # Committed Manifest targets the latest stable Julia; 1.10 resolves its own
+            rm Manifest.toml
+          fi
+          julia --project=. -e "using Pkg; Pkg.Registry.add(); Pkg.resolve()"
       - uses: julia-actions/julia-buildpkg@v1
       - uses: julia-actions/julia-runtest@v1
