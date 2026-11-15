@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 620" role="img" aria-label="Augur - ramalan penjualan UMKM">
+  <rect width="640" height="620" fill="#F5F1EA"/>
+  <path d="M132 138 Q320 34 508 138 Q320 242 132 138 Z" fill="none" stroke="#1F1F1F" stroke-width="22" stroke-linejoin="round"/>
+  <circle cx="320" cy="138" r="42" fill="#C02B7E"/>
+  <circle cx="146" cy="368" r="8" fill="#C02B7E"/>
+  <circle cx="205" cy="346" r="9" fill="#C02B7E"/>
+  <circle cx="260" cy="332" r="10" fill="#C02B7E"/>
+  <circle cx="310" cy="326" r="10" fill="#C02B7E"/>
+  <circle cx="358" cy="330" r="9" fill="#C02B7E"/>
+  <circle cx="408" cy="316" r="9" fill="#C02B7E"/>
+  <circle cx="449" cy="292" r="10" fill="#C02B7E"/>
+  <circle cx="487" cy="262" r="10" fill="#C02B7E"/>
+  <circle cx="520" cy="228" r="11" fill="#C02B7E"/>
+  <text x="320" y="505" text-anchor="middle" font-family="'Arial Black',Arial,Helvetica,sans-serif" font-weight="900" font-size="100" fill="#1F1F1F">Augur</text>
+  <text x="320" y="572" text-anchor="middle" font-family="Courier New,Courier,monospace" font-size="19" letter-spacing="6" fill="#8B867C">RAMALAN PENJUALAN UMKM &#183; JULIA</text>
+</svg>

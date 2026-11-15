@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Augur icon">
+  <path d="M60 148 Q320 10 580 148 Q320 286 60 148 Z" fill="none" stroke="currentColor" stroke-width="34" stroke-linejoin="round"/>
+  <circle cx="320" cy="148" r="56" fill="#C02B7E"/>
+  <circle cx="74" cy="380" r="11" fill="#C02B7E"/>
+  <circle cx="152" cy="348" r="12" fill="#C02B7E"/>
+  <circle cx="224" cy="330" r="13" fill="#C02B7E"/>
+  <circle cx="290" cy="320" r="13" fill="#C02B7E"/>
+  <circle cx="352" cy="326" r="12" fill="#C02B7E"/>
+  <circle cx="420" cy="306" r="12" fill="#C02B7E"/>
+  <circle cx="476" cy="270" r="13" fill="#C02B7E"/>
+  <circle cx="528" cy="224" r="14" fill="#C02B7E"/>
+  <circle cx="582" cy="172" r="15" fill="#C02B7E"/>
+</svg>
