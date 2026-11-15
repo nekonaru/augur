@@ -233,7 +233,7 @@ augur/
     pipeline.jl       # end-to-end orchestration
     synthetic.jl      # synthetic data generator
   test/
-    runtests.jl       # test suite (63 tests)
+    runtests.jl       # test suite (67 tests)
   README.md           # English (source)
   README.id.md        # Bahasa Indonesia
 ```
@@ -274,7 +274,7 @@ julia --project=. -e "using Pkg; Pkg.test()"
 
 | Check | Requirement |
 |-------|-------------|
-| Test suite | 63 tests, all passing |
+| Test suite | 67 tests, all passing |
 | CI | Green on push and PR to `main` |
 | Analyzer | No linter configured; the test suite is the gate |
 

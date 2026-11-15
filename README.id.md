@@ -233,7 +233,7 @@ augur/
     pipeline.jl       # orkestrasi end-to-end
     synthetic.jl      # generator data sintetis
   test/
-    runtests.jl       # test suite (63 tes)
+    runtests.jl       # test suite (67 tes)
   README.md           # English (sumber)
   README.id.md        # Bahasa Indonesia
 ```
@@ -274,7 +274,7 @@ julia --project=. -e "using Pkg; Pkg.test()"
 
 | Cek | Syarat |
 |-------|-------------|
-| Test suite | 63 tes, semuanya hijau |
+| Test suite | 67 tes, semuanya hijau |
 | CI | Hijau pada push dan PR ke `main` |
 | Analyzer | Tidak ada linter yang dikonfigurasi; test suite adalah gerbangnya |
 
