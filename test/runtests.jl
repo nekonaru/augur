@@ -199,6 +199,21 @@ end
         @test a.penjualan == b.penjualan
         @test nrow(a) == 30
         @test all(a.promo .∈ Ref((0, 1)))
+        # known ground truth: Saturday is the peak day, Tuesday the quietest
+        peak = argmax([SYNTHETIC_WEEKLY[i] for i in 1:7])
+        @test peak == 6
+        @test SYNTHETIC_WEEKLY[2] == minimum(values(SYNTHETIC_WEEKLY))
+    end
+
+    @testset "ensemble forecast is mean of members" begin
+        d = Date(2025, 1, 1) .+ Day.(0:59)
+        y = collect(range(1000.0, step = 5.0, length = 60))
+        templates = Augur.AbstractForecaster[Naive(), SeasonalNaive(7), MovingAverage(7)]
+        ens = fit_ensemble(templates, y, d)
+        @test length(ens.members) == 3
+        fc = forecast(ens, 3)
+        members_fc = [forecast(m, 3) for m in ens.members]
+        @test fc ≈ mean(hcat(members_fc...); dims = 2)[:, 1]
     end
 
     @testset "pipeline end-to-end" begin
