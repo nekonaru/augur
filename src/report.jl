@@ -37,7 +37,22 @@ function _forecast_table_html(fc::DataFrame)
     </tbody></table>"""
 end
 
-_fmt_num(x) = isnan(x) ? "-" : string(round(x; digits = 2))
+function _fmt_num(x)
+    isnan(x) && return "-"
+    group(intstr) = (parts = String[]; t = intstr;
+        while length(t) > 3
+            pushfirst!(parts, t[end-2:end]); t = t[1:end-3]
+        end;
+        pushfirst!(parts, t); join(parts, "."))
+    if abs(x) >= 10000
+        intstr = string(round(Int, abs(x)))
+        return (x < 0 ? "-" : "") * group(intstr)
+    end
+    s = string(round(abs(x); digits = 2))
+    intpart, fracpart = split(s, ".")
+    frac2 = length(fracpart) == 1 ? fracpart * "0" : fracpart
+    return (x < 0 ? "-" : "") * group(intpart) * "." * frac2
+end
 
 function _img_tag(path::AbstractString, alt::AbstractString)
     isfile(path) || return "<p><em>[grafik tidak tersedia: $(basename(path))]</em></p>"

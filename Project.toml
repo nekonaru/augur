@@ -1,6 +1,6 @@
 name = "Augur"
 uuid = "f8166180-2dc5-42f7-9b3d-f88d62d03397"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["nekonaru"]
 
 [deps]

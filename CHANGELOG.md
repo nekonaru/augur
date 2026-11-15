@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.1
+
+Bug fix release for the command-line entry point.
+
+## Bug fixes
+
+- **CLI startup.** `scripts/ramal.jl` crashed on launch with "cannot document the following expression"; it now runs cleanly from a fresh clone.
+- **Report numbers.** Metrics tables use Indonesian thousands separators instead of scientific notation.
+
 ## v0.1.0
 
 First public release of Augur, a local-first forecasting tool for UMKM sales data.

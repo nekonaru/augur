@@ -1,13 +1,11 @@
 #!/usr/bin/env julia
-"""
-Augur CLI - ramal penjualan UMKM dari CSV.
-
-Usage:
-  julia --project=. scripts/ramal.jl data.csv [--horizon 14] [--out laporan/]
-                                              [--granularity harian|mingguan]
-                                              [--outlier winsorize|mark|drop]
-                                              [--seed 20250601]
-"""
+# Augur CLI - ramal penjualan UMKM dari CSV.
+#
+# Usage:
+#   julia --project=. scripts/ramal.jl data.csv [--horizon 14] [--out laporan/]
+#                                               [--granularity harian|mingguan]
+#                                               [--outlier winsorize|mark|drop]
+#                                               [--seed 20250601]
 using Augur
 using Dates
 

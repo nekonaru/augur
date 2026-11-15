@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.1
+
+Rilis perbaikan bug untuk entry point command-line.
+
+## Perbaikan bug
+
+- **Startup CLI.** `scripts/ramal.jl` crash saat dijalankan dengan "cannot document the following expression"; sekarang berjalan bersih dari clone baru.
+- **Angka di laporan.** Tabel metrik memakai separator ribuan Indonesia, bukan notasi ilmiah.
+
 ## v0.1.0
 
 Rilis publik pertama Augur, tool peramalan lokal untuk data penjualan UMKM.
