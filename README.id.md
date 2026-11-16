@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo-light.svg" alt="Logo Augur" width="140" />
+  <img src="assets/augur-mark.png" alt="Logo Augur" width="140" />
   <h1>Augur: Forecasting untuk UMKM</h1>
   <p><b>Ubah data penjualan CSV menjadi ramalan yang jujur dan insight bahasa sehari-hari<br/>
   untuk warung dan UMKM. Sepenuhnya offline, tanpa akun.</b></p>

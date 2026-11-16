@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 620" role="img" aria-label="Augur - ramalan penjualan UMKM">
   <rect width="640" height="620" fill="#14141B"/>
-  <path d="M128 140 C 210 44, 430 44, 512 140 C 430 236, 210 236, 128 140 Z" fill="none" stroke="#F5F1EA" stroke-width="22" stroke-linejoin="round"/>
-  <circle cx="320" cy="140" r="52" fill="#C02B7E"/>
-  <circle cx="140.0" cy="382.0" r="8.0" fill="#C02B7E"/>
-  <circle cx="187.0" cy="372.5" r="8.4" fill="#C02B7E"/>
-  <circle cx="234.0" cy="357.7" r="8.8" fill="#C02B7E"/>
-  <circle cx="281.0" cy="340.0" r="9.2" fill="#C02B7E"/>
-  <circle cx="328.0" cy="320.0" r="9.6" fill="#C02B7E"/>
-  <circle cx="375.0" cy="298.2" r="10.0" fill="#C02B7E"/>
+  <path d="M124 142 C 205 40, 435 40, 516 142 C 435 244, 205 244, 124 142 Z" fill="none" stroke="#F5F1EA" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="320" cy="142" r="54" fill="#C02B7E"/>
+  <circle cx="140.0" cy="382.0" r="7.2" fill="#C02B7E"/>
+  <circle cx="187.0" cy="372.5" r="7.7" fill="#C02B7E"/>
+  <circle cx="234.0" cy="357.7" r="8.2" fill="#C02B7E"/>
+  <circle cx="281.0" cy="340.0" r="8.8" fill="#C02B7E"/>
+  <circle cx="328.0" cy="320.0" r="9.3" fill="#C02B7E"/>
+  <circle cx="375.0" cy="298.2" r="9.8" fill="#C02B7E"/>
   <circle cx="422.0" cy="274.9" r="10.4" fill="#C02B7E"/>
-  <circle cx="469.0" cy="250.1" r="10.8" fill="#C02B7E"/>
-  <circle cx="516.0" cy="224.0" r="11.2" fill="#C02B7E"/>
+  <circle cx="469.0" cy="250.1" r="10.9" fill="#C02B7E"/>
+  <circle cx="516.0" cy="224.0" r="11.4" fill="#C02B7E"/>
   <text x="320" y="508" text-anchor="middle" font-family="'Arial Black',Arial,Helvetica,sans-serif" font-weight="900" font-size="98" fill="#F5F1EA">Augur</text>
   <text x="320" y="574" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="18" letter-spacing="6" fill="#A8A396">RAMALAN PENJUALAN UMKM &#183; JULIA</text>
 </svg>
